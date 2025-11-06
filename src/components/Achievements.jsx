@@ -17,25 +17,23 @@ const Achievements = () => {
         <div className="space-y-8 animate-slide-up">
           {/* Destaque Principal - Libertadores */}
           <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
-            {/* Imagem de fundo da Libertadores */}
-            <div className="absolute inset-0 opacity-30">
-              <img 
-                src="/images/libertadores-1991.jpg" 
-                alt="Copa Libertadores 1991" 
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.target.style.display = 'none';
-                }}
-              />
-            </div>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-pulse"></div>
             <div className="relative z-10 p-10">
-              <div className="flex items-center gap-4 mb-4">
-                <span className="text-5xl">🏆</span>
-                <h3 className="text-3xl md:text-4xl font-bold">Copa Libertadores da América</h3>
+              <div className="flex items-center gap-6 mb-6">
+                <img 
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png/250px-328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png" 
+                  alt="Taça Copa Libertadores" 
+                  className="w-24 h-24 md:w-32 md:h-32 object-contain drop-shadow-2xl"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                  }}
+                />
+                <div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-2">Copa Libertadores da América</h3>
+                  <p className="text-xl text-gray-200">1 título (1991)</p>
+                  <p className="text-lg text-gray-300">Único clube chileno a conquistar este troféu histórico</p>
+                </div>
               </div>
-              <p className="text-xl text-gray-200 mb-2">1 título (1991)</p>
-              <p className="text-lg text-gray-300">Único clube chileno a conquistar este troféu histórico</p>
             </div>
           </div>
           
@@ -60,7 +58,19 @@ const Achievements = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="group bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-4xl">🏅</span>
+                <div className="flex-shrink-0">
+                  <img 
+                    src="https://footballpredictions.net/storage/131/5250792.png" 
+                    alt="Campeonato Chileno" 
+                    className="w-16 h-16 object-contain"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      const fallback = e.target.nextElementSibling;
+                      if (fallback) fallback.style.display = 'block';
+                    }}
+                  />
+                  <span className="text-4xl hidden">🏅</span>
+                </div>
                 <h3 className="text-2xl font-bold text-black">Campeonato Chileno</h3>
               </div>
               <p className="text-4xl font-extrabold text-gray-900 mb-3">33</p>
@@ -69,7 +79,19 @@ const Achievements = () => {
             
             <div className="group bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-4xl">🥇</span>
+                <div className="flex-shrink-0">
+                  <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/0/04/Copa_Chile.png" 
+                    alt="Copa Chile" 
+                    className="w-16 h-16 object-contain"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      const fallback = e.target.nextElementSibling;
+                      if (fallback) fallback.style.display = 'block';
+                    }}
+                  />
+                  <span className="text-4xl hidden">🥇</span>
+                </div>
                 <h3 className="text-2xl font-bold text-black">Copa Chile</h3>
               </div>
               <p className="text-4xl font-extrabold text-gray-900 mb-3">13</p>
@@ -78,7 +100,19 @@ const Achievements = () => {
             
             <div className="group bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-4xl">🌎</span>
+                <div className="flex-shrink-0">
+                  <img 
+                    src="https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2022/03/recopa.png" 
+                    alt="Recopa Sul-Americana" 
+                    className="w-16 h-16 object-contain"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      const fallback = e.target.nextElementSibling;
+                      if (fallback) fallback.style.display = 'block';
+                    }}
+                  />
+                  <span className="text-4xl hidden">🌎</span>
+                </div>
                 <h3 className="text-2xl font-bold text-black">Recopa Sul-Americana</h3>
               </div>
               <p className="text-4xl font-extrabold text-gray-900 mb-3">1</p>
@@ -87,7 +121,19 @@ const Achievements = () => {
             
             <div className="group bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-4xl">⭐</span>
+                <div className="flex-shrink-0">
+                  <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Supercopa_de_Chile.png?20221104124340" 
+                    alt="Supercopa do Chile" 
+                    className="w-16 h-16 object-contain"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      const fallback = e.target.nextElementSibling;
+                      if (fallback) fallback.style.display = 'block';
+                    }}
+                  />
+                  <span className="text-4xl hidden">⭐</span>
+                </div>
                 <h3 className="text-2xl font-bold text-black">Supercopa do Chile</h3>
               </div>
               <p className="text-4xl font-extrabold text-gray-900 mb-3">2</p>
