@@ -1,0 +1,59 @@
+================================================================================
+    LANDING PAGE - COLO-COLO
+    Tudo sobre o clube mais tradicional do Chile
+================================================================================
+
+✅ PROJETO PRONTO PARA USO!
+
+================================================================================
+COMO INICIAR (ESCOLHA UMA OPÇÃO):
+================================================================================
+
+OPÇÃO 1 - MAIS FÁCIL:
+  1. Clique duas vezes no arquivo: iniciar.bat
+  2. Aguarde o navegador abrir automaticamente
+  3. Se não abrir, acesse: http://localhost:5173
+
+OPÇÃO 2 - MANUAL:
+  1. Abra o terminal/PowerShell nesta pasta
+  2. Digite: npm run dev
+  3. Acesse: http://localhost:5173 no navegador
+
+================================================================================
+⚠️ IMPORTANTE:
+================================================================================
+
+- NÃO abra o arquivo index.html diretamente no navegador
+- O servidor DEVE estar rodando (npm run dev)
+- Use sempre o endereço http://localhost:5173
+
+================================================================================
+ESTRUTURA:
+================================================================================
+
+✓ Todas as dependências instaladas
+✓ Todos os componentes criados
+✓ Tailwind CSS configurado
+✓ React configurado
+✓ Vite configurado
+
+================================================================================
+COMANDOS ÚTEIS:
+================================================================================
+
+npm run dev      - Inicia o servidor de desenvolvimento
+npm run build    - Cria versão de produção
+npm run preview  - Visualiza versão de produção
+
+================================================================================
+PRÓXIMOS PASSOS:
+================================================================================
+
+1. Execute: npm run dev
+2. Acesse: http://localhost:5173
+3. A landing page estará funcionando!
+
+Para mais detalhes, consulte: COMO_USAR.md
+
+================================================================================
+
