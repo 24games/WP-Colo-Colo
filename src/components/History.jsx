@@ -7,32 +7,32 @@ const History = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             <span className="relative inline-block">
-              História do Colo-Colo
+              Historia del Colo-Colo
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-black via-gray-600 to-black rounded-full"></span>
             </span>
           </h2>
-          <p className="text-gray-600 text-lg mt-6">Uma jornada épica através das décadas</p>
+          <p className="text-gray-600 text-lg mt-6">Un viaje épico a través de las décadas</p>
         </div>
         
         <div className="space-y-8 animate-slide-up">
-          {/* Fundação */}
+          {/* Fundación */}
           <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg border-l-4 border-black hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
-              <h3 className="text-3xl font-bold text-black">A Fundação e os Primeiros Anos</h3>
+              <h3 className="text-3xl font-bold text-black">La Fundación y los Primeros Años</h3>
             </div>
             <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
               <p>
-                O Colo-Colo foi fundado em <span className="font-semibold text-black">19 de abril de 1925</span> por um grupo de jogadores liderados por <span className="font-semibold">David Arellano</span>, 
-                que se separaram do Magallanes após desentendimentos. O nome "Colo-Colo" foi escolhido em homenagem a 
-                um importante líder mapuche, refletindo a identidade chilena do clube desde seus primeiros dias. 
-                As cores preto e branco foram adotadas como símbolo de elegância e tradição.
+                El Colo-Colo fue fundado el <span className="font-semibold text-black">19 de abril de 1925</span> por un grupo de jugadores liderados por <span className="font-semibold">David Arellano</span>, 
+                que se separaron del Magallanes tras desacuerdos. El nombre "Colo-Colo" fue elegido en homenaje a 
+                un importante líder mapuche, reflejando la identidad chilena del club desde sus primeros días. 
+                Los colores negro y blanco fueron adoptados como símbolo de elegancia y tradición.
               </p>
               <p>
-                Nos primeiros anos, o Colo-Colo rapidamente se estabeleceu como uma força dominante no futebol chileno. 
-                O clube conquistou seu primeiro título nacional em <span className="font-semibold">1937</span> e, desde então, nunca mais parou de crescer. 
-                A década de 1940 foi especialmente marcante, com o clube conquistando vários títulos consecutivos e 
-                consolidando sua hegemonia no futebol chileno.
+                En los primeros años, el Colo-Colo rápidamente se estableció como una fuerza dominante en el fútbol chileno. 
+                El club conquistó su primer título nacional en <span className="font-semibold">1937</span> y, desde entonces, nunca dejó de crecer. 
+                La década de 1940 fue especialmente marcante, con el club conquistando varios títulos consecutivos y 
+                consolidando su hegemonía en el fútbol chileno.
               </p>
             </div>
           </div>
@@ -41,14 +41,14 @@ const History = () => {
           <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg border-l-4 border-gray-600 hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
-              <h3 className="text-3xl font-bold text-black">Décadas de Glória e Transformação</h3>
+              <h3 className="text-3xl font-bold text-black">Décadas de Gloria y Transformación</h3>
             </div>
             
             {/* Imagem do Estádio Monumental */}
             <div className="mb-6 rounded-xl overflow-hidden shadow-lg">
               <img 
                 src="https://cdn.conmebol.com/wp-content/uploads/2016/08/monumentalchile1.jpg" 
-                alt="Estádio Monumental David Arellano" 
+                alt="Estadio Monumental David Arellano" 
                 className="w-full h-64 md:h-80 object-cover"
                 onError={(e) => {
                   e.target.src = 'https://ebco.cl/assets/projects/proyectos/estadio-monumental-y-casa-alba-1.jpg';
@@ -58,14 +58,14 @@ const History = () => {
             
             <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
               <p>
-                Ao longo das décadas seguintes, o Colo-Colo passou por várias fases de transformação. Nas décadas de <span className="font-semibold">1960 
-                e 1970</span>, o clube continuou a dominar o cenário nacional, enquanto começava a fazer história em competições 
-                internacionais. A construção do <span className="font-semibold">Estádio Monumental</span> na década de 1970 marcou um novo capítulo na história 
-                do clube, proporcionando uma casa digna para seus milhões de torcedores.
+                A lo largo de las décadas siguientes, el Colo-Colo pasó por varias fases de transformación. En las décadas de <span className="font-semibold">1960 
+                y 1970</span>, el club continuó dominando el escenario nacional, mientras comenzaba a hacer historia en competencias 
+                internacionales. La construcción del <span className="font-semibold">Estadio Monumental</span> en la década de 1970 marcó un nuevo capítulo en la historia 
+                del club, proporcionando un hogar digno para sus millones de hinchas.
               </p>
               <p>
-                A década de <span className="font-semibold text-black">1990</span> foi o auge do Colo-Colo. Com uma equipe talentosa e bem estruturada, o clube alcançou 
-                conquistas históricas que até hoje são lembradas com orgulho por toda a nação chilena.
+                La década de <span className="font-semibold text-black">1990</span> fue el auge del Colo-Colo. Con un equipo talentoso y bien estructurado, el club alcanzó 
+                conquistas históricas que hasta hoy son recordadas con orgullo por toda la nación chilena.
               </p>
             </div>
           </div>
@@ -76,4 +76,3 @@ const History = () => {
 }
 
 export default History
-

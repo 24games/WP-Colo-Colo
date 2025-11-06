@@ -7,21 +7,21 @@ const Future = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             <span className="relative inline-block">
-              Futuro e Expectativas
+              Futuro y Expectativas
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-black via-gray-600 to-black rounded-full"></span>
             </span>
           </h2>
-          <p className="text-gray-600 text-lg mt-6">Olhando adiante com ambição e determinação</p>
+          <p className="text-gray-600 text-lg mt-6">Mirando adelante con ambición y determinación</p>
         </div>
         
         <div className="space-y-8 animate-slide-up">
           {/* Introdução */}
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
             <p className="text-xl text-gray-700 leading-relaxed">
-              O Colo-Colo continua sendo uma força dominante no futebol chileno e está constantemente se 
-              preparando para os desafios futuros. O clube mantém um compromisso firme com o desenvolvimento 
-              de jovens talentos através de sua renomada escola de futebol, garantindo que novas gerações 
-              de jogadores continuem a vestir a camisa alvinegra com orgulho e dedicação.
+              El Colo-Colo continúa siendo una fuerza dominante en el fútbol chileno y está constantemente 
+              preparándose para los desafíos futuros. El club mantiene un compromiso firme con el desarrollo 
+              de jóvenes talentos a través de su renombrada escuela de fútbol, garantizando que nuevas generaciones 
+              de jugadores continúen vistiendo la camiseta alvinegra con orgullo y dedicación.
             </p>
           </div>
           
@@ -29,36 +29,36 @@ const Future = () => {
           <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl shadow-lg border-l-4 border-green-600">
             <div className="flex items-center gap-3 mb-6">
               <span className="text-4xl">🎯</span>
-              <h3 className="text-3xl font-bold text-black">Objetivos e Ambições</h3>
+              <h3 className="text-3xl font-bold text-black">Objetivos y Ambiciones</h3>
             </div>
             <ul className="space-y-4 text-lg text-gray-800">
               <li className="flex items-start gap-3">
                 <span className="text-green-600 font-bold text-xl mt-1">✓</span>
                 <div>
-                  <strong className="text-black">Retomar a Copa Libertadores:</strong> O clube tem como principal objetivo 
-                  voltar a conquistar a competição continental mais importante da América do Sul, repetindo 
-                  o feito histórico de 1991.
+                  <strong className="text-black">Retomar la Copa Libertadores:</strong> El club tiene como principal objetivo 
+                  volver a conquistar la competencia continental más importante de Sudamérica, repitiendo 
+                  el logro histórico de 1991.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-600 font-bold text-xl mt-1">✓</span>
                 <div>
-                  <strong className="text-black">Manter a hegemonia nacional:</strong> Continuar sendo o clube mais vencedor 
-                  do Chile, conquistando títulos do Campeonato Chileno e outras competições nacionais.
+                  <strong className="text-black">Mantener la hegemonía nacional:</strong> Continuar siendo el club más ganador 
+                  de Chile, conquistando títulos del Campeonato Chileno y otras competencias nacionales.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-600 font-bold text-xl mt-1">✓</span>
                 <div>
-                  <strong className="text-black">Desenvolvimento de talentos:</strong> Investir na formação de jovens jogadores 
-                  que possam representar tanto o clube quanto a seleção chilena em competições internacionais.
+                  <strong className="text-black">Desarrollo de talentos:</strong> Invertir en la formación de jóvenes jugadores 
+                  que puedan representar tanto al club como a la selección chilena en competencias internacionales.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-600 font-bold text-xl mt-1">✓</span>
                 <div>
-                  <strong className="text-black">Fortalecimento institucional:</strong> Continuar modernizando a estrutura do 
-                  clube, melhorando as instalações e garantindo a sustentabilidade financeira e esportiva.
+                  <strong className="text-black">Fortalecimiento institucional:</strong> Continuar modernizando la estructura del 
+                  club, mejorando las instalaciones y garantizando la sostenibilidad financiera y deportiva.
                 </div>
               </li>
             </ul>
@@ -69,12 +69,12 @@ const Future = () => {
             <div className="flex items-start gap-4">
               <span className="text-4xl">🚀</span>
               <div>
-                <p className="text-gray-900 text-2xl font-semibold mb-3">Visão de Futuro</p>
+                <p className="text-gray-900 text-2xl font-semibold mb-3">Visión de Futuro</p>
                 <p className="text-gray-800 text-lg leading-relaxed">
-                  O Colo-Colo não apenas olha para o passado com orgulho, 
-                  mas também projeta um futuro brilhante. Com uma base sólida, uma torcida apaixonada e uma 
-                  tradição de excelência, o clube está preparado para continuar escrevendo capítulos gloriosos 
-                  na história do futebol chileno e sul-americano.
+                  El Colo-Colo no solo mira al pasado con orgullo, 
+                  sino que también proyecta un futuro brillante. Con una base sólida, una hinchada apasionada y una 
+                  tradición de excelencia, el club está preparado para continuar escribiendo capítulos gloriosos 
+                  en la historia del fútbol chileno y sudamericano.
                 </p>
               </div>
             </div>
@@ -86,4 +86,3 @@ const Future = () => {
 }
 
 export default Future
-

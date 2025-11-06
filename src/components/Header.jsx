@@ -15,10 +15,10 @@ const Header = () => {
             <div className="relative w-32 h-32 md:w-40 md:h-40">
               <img 
                 src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e8/Colo-Colo_Futbol_Club.png/250px-Colo-Colo_Futbol_Club.png" 
-                alt="Escudo Colo-Colo" 
+                alt="Escudo del Colo-Colo" 
                 className="w-full h-full object-contain drop-shadow-2xl transform group-hover:scale-110 transition-transform duration-300"
                 onError={(e) => {
-                  // Fallback para SVG local se a imagem não carregar
+                  // Fallback para SVG local si la imagen no carga
                   e.target.src = '/images/logo-colo-colo.svg';
                 }}
               />
@@ -33,20 +33,20 @@ const Header = () => {
         
         <div className="inline-block mb-6">
           <span className="text-sm md:text-base font-semibold text-gray-400 uppercase tracking-wider px-4 py-2 border border-white/20 rounded-full backdrop-blur-sm">
-            Clube de Futebol Chileno
+            Club de Fútbol Chileno
           </span>
         </div>
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
           <span className="bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
-            Tudo sobre o Colo-Colo
+            Todo sobre el Colo-Colo
           </span>
           <br />
           <span className="text-4xl md:text-5xl lg:text-6xl font-bold text-white/90">
-            História, Conquistas e Cultura
+            Historia, Conquistas y Cultura
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mt-6 max-w-3xl mx-auto leading-relaxed">
-          Descubra tudo sobre o clube mais tradicional do Chile
+          Descubre todo sobre el club más tradicional de Chile
         </p>
         <div className="mt-8 flex justify-center">
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-white to-transparent rounded-full"></div>

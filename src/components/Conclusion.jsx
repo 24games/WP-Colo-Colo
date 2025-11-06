@@ -10,32 +10,32 @@ const Conclusion = () => {
       <div className="relative max-w-5xl mx-auto text-center animate-fade-in">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-8">
           <span className="bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
-            Conclusão
+            Conclusión
           </span>
         </h2>
         
         <div className="space-y-6 text-xl leading-relaxed text-gray-200 mb-12">
           <p>
-            O <strong className="text-white text-2xl">Colo-Colo</strong> não é apenas um clube de futebol. É uma instituição que representa 
-            a essência do futebol chileno, uma parte vital da cultura e da história do Chile. Desde sua 
-            fundação em <span className="font-semibold">1925</span>, o clube tem sido muito mais do que um time que joga futebol; tem sido um 
-            símbolo de orgulho, resistência e identidade nacional.
+            El <strong className="text-white text-2xl">Colo-Colo</strong> no es solo un club de fútbol. Es una institución que representa 
+            la esencia del fútbol chileno, una parte vital de la cultura y la historia de Chile. Desde su 
+            fundación en <span className="font-semibold">1925</span>, el club ha sido mucho más que un equipo que juega fútbol; ha sido un 
+            símbolo de orgullo, resistencia e identidad nacional.
           </p>
           <p>
-            Com suas <span className="font-bold text-white">33 conquistas</span> do Campeonato Chileno, sua histórica <span className="font-bold text-yellow-300">Copa Libertadores de 1991</span>, seus 
-            milhões de torcedores apaixonados e sua rica tradição, o Colo-Colo continuará sendo o maior 
-            símbolo do futebol do Chile por muitas décadas. O clube transcende o esporte e se torna parte 
-            da memória coletiva e da identidade cultural do povo chileno.
+            Con sus <span className="font-bold text-white">33 conquistas</span> del Campeonato Chileno, su histórica <span className="font-bold text-yellow-300">Copa Libertadores de 1991</span>, sus 
+            millones de hinchas apasionados y su rica tradición, el Colo-Colo continuará siendo el mayor 
+            símbolo del fútbol de Chile por muchas décadas. El club trasciende el deporte y se convierte en parte 
+            de la memoria colectiva y la identidad cultural del pueblo chileno.
           </p>
         </div>
         
         <div className="bg-white/10 backdrop-blur-md p-10 rounded-3xl border border-white/20 shadow-2xl transform hover:scale-[1.02] transition-transform duration-300">
           <p className="text-3xl md:text-4xl font-bold mb-6 text-white">
-            Viva a história do Colo-Colo e continue acompanhando as futuras conquistas!
+            ¡Vive la historia del Colo-Colo y continúa siguiendo las futuras conquistas!
           </p>
           <p className="text-xl text-gray-200 leading-relaxed">
-            O legado do Cacique continua vivo, e cada novo jogo, cada nova conquista, escreve mais um 
-            capítulo na gloriosa história deste clube imortal.
+            El legado del Cacique continúa vivo, y cada nuevo partido, cada nueva conquista, escribe un capítulo más 
+            en la gloriosa historia de este club inmortal.
           </p>
         </div>
       </div>
@@ -44,4 +44,3 @@ const Conclusion = () => {
 }
 
 export default Conclusion
-

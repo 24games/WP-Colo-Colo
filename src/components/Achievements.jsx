@@ -7,11 +7,11 @@ const Achievements = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             <span className="relative inline-block">
-              Principais Conquistas
+              Principales Conquistas
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-black via-gray-600 to-black rounded-full"></span>
             </span>
           </h2>
-          <p className="text-gray-600 text-lg mt-6">Uma trajetória de glórias e vitórias</p>
+          <p className="text-gray-600 text-lg mt-6">Una trayectoria de glorias y victorias</p>
         </div>
         
         <div className="space-y-8 animate-slide-up">
@@ -22,30 +22,30 @@ const Achievements = () => {
               <div className="flex flex-col md:flex-row items-start gap-6 mb-6">
                 <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png/250px-328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png" 
-                  alt="Taça Copa Libertadores" 
+                  alt="Trofeo Copa Libertadores" 
                   className="w-24 h-24 md:w-32 md:h-32 object-contain drop-shadow-2xl flex-shrink-0"
                   onError={(e) => {
                     e.target.style.display = 'none';
                   }}
                 />
                 <div className="flex-1">
-                  <h3 className="text-3xl md:text-4xl font-bold mb-2">Copa Libertadores da América</h3>
-                  <p className="text-xl text-gray-200 mb-4">1 título (1991) - O Título Mais Importante</p>
-                  <p className="text-lg text-gray-300 mb-4">Único clube chileno a conquistar este troféu histórico</p>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-2">Copa Libertadores de América</h3>
+                  <p className="text-xl text-gray-200 mb-4">1 título (1991) - El Título Más Importante</p>
+                  <p className="text-lg text-gray-300 mb-4">Único club chileno en conquistar este trofeo histórico</p>
                   
                   {/* Texto sobre a conquista de 1991 */}
                   <div className="space-y-3 text-lg text-gray-200 leading-relaxed mt-4 pt-4 border-t border-white/20">
                     <p>
-                      O ano de <span className="font-bold text-white">1991</span> ficou marcado na história do futebol chileno como o momento em que o Colo-Colo conquistou 
-                      a <strong className="text-yellow-300">Copa Libertadores da América</strong>, o título mais prestigioso do continente. 
-                      Sob o comando do técnico croata <span className="font-semibold">Mirko Jozić</span>, o Colo-Colo derrotou o Olimpia do Paraguai na final, 
-                      tornando-se o primeiro e único clube chileno a conquistar esse troféu até hoje.
+                      El año <span className="font-bold text-white">1991</span> quedó marcado en la historia del fútbol chileno como el momento en que el Colo-Colo conquistó 
+                      la <strong className="text-yellow-300">Copa Libertadores de América</strong>, el título más prestigioso del continente. 
+                      Bajo el mando del técnico croata <span className="font-semibold">Mirko Jozić</span>, el Colo-Colo derrotó al Olimpia de Paraguay en la final, 
+                      convirtiéndose en el primer y único club chileno en conquistar este trofeo hasta hoy.
                     </p>
                     <p>
-                      Essa conquista não foi apenas um título esportivo, mas sim um momento de união nacional. Milhares de 
-                      chilenos celebraram nas ruas, e o feito do Colo-Colo foi reconhecido como uma vitória de todo o país. 
-                      O clube ainda participou do <span className="font-semibold">Mundial de Clubes da FIFA</span> no mesmo ano, enfrentando equipes europeias e 
-                      consolidando seu nome no cenário internacional.
+                      Esta conquista no fue solo un título deportivo, sino un momento de unión nacional. Miles de 
+                      chilenos celebraron en las calles, y el logro del Colo-Colo fue reconocido como una victoria de todo el país. 
+                      El club también participó del <span className="font-semibold">Mundial de Clubes de la FIFA</span> en el mismo año, enfrentando equipos europeos y 
+                      consolidando su nombre en el escenario internacional.
                     </p>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ const Achievements = () => {
               </div>
               <div className="flex items-baseline gap-2">
                 <p className="text-4xl font-extrabold text-gray-900">33</p>
-                <p className="text-lg text-gray-600">títulos - Maior campeão nacional</p>
+                <p className="text-lg text-gray-600">títulos - Mayor campeón nacional</p>
               </div>
             </div>
             
@@ -106,7 +106,7 @@ const Achievements = () => {
                 <div className="flex-shrink-0">
                   <img 
                     src="https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2022/03/recopa.png" 
-                    alt="Recopa Sul-Americana" 
+                    alt="Recopa Sudamericana" 
                     className="w-16 h-16 object-contain"
                     onError={(e) => {
                       e.target.style.display = 'none';
@@ -116,7 +116,7 @@ const Achievements = () => {
                   />
                   <span className="text-4xl hidden">🌎</span>
                 </div>
-                <h3 className="text-2xl font-bold text-black">Recopa Sul-Americana</h3>
+                <h3 className="text-2xl font-bold text-black">Recopa Sudamericana</h3>
               </div>
               <div className="flex items-baseline gap-2">
                 <p className="text-4xl font-extrabold text-gray-900">1</p>
@@ -129,7 +129,7 @@ const Achievements = () => {
                 <div className="flex-shrink-0">
                   <img 
                     src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Supercopa_de_Chile.png?20221104124340" 
-                    alt="Supercopa do Chile" 
+                    alt="Supercopa de Chile" 
                     className="w-16 h-16 object-contain"
                     onError={(e) => {
                       e.target.style.display = 'none';
@@ -139,11 +139,11 @@ const Achievements = () => {
                   />
                   <span className="text-4xl hidden">⭐</span>
                 </div>
-                <h3 className="text-2xl font-bold text-black">Supercopa do Chile</h3>
+                <h3 className="text-2xl font-bold text-black">Supercopa de Chile</h3>
               </div>
               <div className="flex items-baseline gap-2">
                 <p className="text-4xl font-extrabold text-gray-900">2</p>
-                <p className="text-lg text-gray-600">títulos (2017 e 2018)</p>
+                <p className="text-lg text-gray-600">títulos (2017 y 2018)</p>
               </div>
             </div>
           </div>
@@ -153,12 +153,12 @@ const Achievements = () => {
             <div className="flex items-start gap-4">
               <span className="text-3xl">✨</span>
               <div>
-                <p className="text-gray-900 text-xl font-semibold mb-2">Destaque Histórico</p>
+                <p className="text-gray-900 text-xl font-semibold mb-2">Destacado Histórico</p>
                 <p className="text-gray-800 text-lg leading-relaxed">
-                  O Colo-Colo é o clube mais vencedor da história do futebol chileno, 
-                  com um total de mais de <strong className="text-black">50 títulos oficiais</strong> entre competições nacionais e internacionais. 
-                  Sua hegemonia no cenário nacional é inquestionável, e sua conquista da Copa Libertadores 
-                  em 1991 permanece como o maior feito do futebol chileno em competições continentais.
+                  El Colo-Colo es el club más ganador de la historia del fútbol chileno, 
+                  con un total de más de <strong className="text-black">50 títulos oficiales</strong> entre competencias nacionales e internacionales. 
+                  Su hegemonía en el escenario nacional es incuestionable, y su conquista de la Copa Libertadores 
+                  en 1991 permanece como el mayor logro del fútbol chileno en competencias continentales.
                 </p>
               </div>
             </div>
@@ -170,4 +170,3 @@ const Achievements = () => {
 }
 
 export default Achievements
-

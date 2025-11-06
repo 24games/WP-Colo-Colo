@@ -11,7 +11,7 @@ const Rivalries = () => {
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-black via-gray-600 to-black rounded-full"></span>
             </span>
           </h2>
-          <p className="text-gray-600 text-lg mt-6">Confrontos que definem a paixão do futebol chileno</p>
+          <p className="text-gray-600 text-lg mt-6">Enfrentamientos que definen la pasión del fútbol chileno</p>
         </div>
         
         <div className="space-y-8 animate-slide-up">
@@ -32,26 +32,26 @@ const Rivalries = () => {
             <div className="relative z-10 p-10">
               <div className="flex items-center gap-4 mb-6">
                 <span className="text-5xl">⚔️</span>
-                <h3 className="text-3xl md:text-4xl font-bold">O Superclásico Chileno</h3>
+                <h3 className="text-3xl md:text-4xl font-bold">El Superclásico Chileno</h3>
               </div>
               <p className="text-2xl font-semibold mb-6 text-red-100">Colo-Colo vs Universidad de Chile</p>
               <div className="space-y-4 text-lg text-red-50 leading-relaxed">
                 <p>
-                  A rivalidade entre o <strong className="text-white">Colo-Colo</strong> e a <strong className="text-white">Universidad de Chile</strong> 
-                  (conhecida como "La U") é considerada uma das mais intensas e apaixonadas do futebol sul-americano. 
-                  Este confronto, batizado de <strong className="text-white text-xl">"Superclásico Chileno"</strong>, vai muito além de uma simples partida de futebol.
+                  La rivalidad entre el <strong className="text-white">Colo-Colo</strong> y la <strong className="text-white">Universidad de Chile</strong> 
+                  (conocida como "La U") es considerada una de las más intensas y apasionadas del fútbol sudamericano. 
+                  Este enfrentamiento, bautizado como <strong className="text-white text-xl">"Superclásico Chileno"</strong>, va mucho más allá de un simple partido de fútbol.
                 </p>
                 <p>
-                  O Superclásico representa um choque de identidades: o Colo-Colo, clube tradicional e popular, contra 
-                  a Universidad de Chile, representante da classe média e intelectual. Quando esses dois gigantes se 
-                  enfrentam, o Chile praticamente para. Milhões de pessoas acompanham o jogo, e as ruas se enchem de 
-                  torcedores vestindo as cores de seus clubes.
+                  El Superclásico representa un choque de identidades: el Colo-Colo, club tradicional y popular, contra 
+                  la Universidad de Chile, representante de la clase media e intelectual. Cuando estos dos gigantes se 
+                  enfrentan, Chile prácticamente se detiene. Millones de personas siguen el partido, y las calles se llenan de 
+                  hinchas vistiendo los colores de sus clubes.
                 </p>
                 <p>
-                  A tensão e a emoção desses confrontos são indescritíveis. Cada gol, cada lance, cada decisão do 
-                  árbitro é sentida com intensidade máxima. O Superclásico não é apenas um jogo; é um evento cultural 
-                  que define a identidade futebolística chilena e continua sendo o confronto mais aguardado e 
-                  significativo do calendário esportivo do país.
+                  La tensión y la emoción de estos enfrentamientos son indescriptibles. Cada gol, cada jugada, cada decisión del 
+                  árbitro se siente con máxima intensidad. El Superclásico no es solo un partido; es un evento cultural 
+                  que define la identidad futbolística chilena y continúa siendo el enfrentamiento más esperado y 
+                  significativo del calendario deportivo del país.
                 </p>
               </div>
             </div>
@@ -61,12 +61,12 @@ const Rivalries = () => {
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
             <h3 className="text-2xl font-bold text-black mb-4 flex items-center gap-3">
               <span className="text-3xl">⚡</span>
-              Outras Rivalidades Importantes
+              Otras Rivalidades Importantes
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Além do confronto com a Universidad de Chile, o Colo-Colo mantém rivalidades históricas com outros 
-              clubes chilenos, como o <span className="font-semibold">Universidad Católica</span> e o <span className="font-semibold">Audax Italiano</span>. Esses confrontos regionais e nacionais 
-              também geram grande expectativa e paixão, mas nenhum deles alcança a magnitude e a intensidade do 
+              Además del enfrentamiento con la Universidad de Chile, el Colo-Colo mantiene rivalidades históricas con otros 
+              clubes chilenos, como la <span className="font-semibold">Universidad Católica</span> y el <span className="font-semibold">Audax Italiano</span>. Estos enfrentamientos regionales y nacionales 
+              también generan gran expectativa y pasión, pero ninguno de ellos alcanza la magnitud e intensidad del 
               Superclásico contra La U.
             </p>
           </div>
@@ -77,4 +77,3 @@ const Rivalries = () => {
 }
 
 export default Rivalries
-

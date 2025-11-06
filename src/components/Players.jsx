@@ -7,11 +7,11 @@ const Players = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             <span className="relative inline-block">
-              Principais Jogadores da História
+              Principales Jugadores de la Historia
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-black via-gray-600 to-black rounded-full"></span>
             </span>
           </h2>
-          <p className="text-gray-600 text-lg mt-6">Lendas que marcaram a história do clube</p>
+          <p className="text-gray-600 text-lg mt-6">Leyendas que marcaron la historia del club</p>
         </div>
         
         <div className="space-y-6 animate-slide-up">
@@ -38,9 +38,9 @@ const Players = () => {
                   <span className="text-sm font-semibold text-gray-500 italic">"El Rey del Gol"</span>
                 </div>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Considerado um dos maiores ídolos da história do Colo-Colo, Carlos Caszely é o maior artilheiro da história do clube, 
-                  marcando mais de <span className="font-bold text-black">200 gols</span>. Foi fundamental nas conquistas dos anos <span className="font-semibold">1970 e 1980</span>. 
-                  Sua paixão e dedicação ao clube o transformaram em um símbolo eterno do Colo-Colo.
+                  Considerado uno de los mayores ídolos de la historia del Colo-Colo, Carlos Caszely es el mayor goleador de la historia del club, 
+                  marcando más de <span className="font-bold text-black">200 goles</span>. Fue fundamental en las conquistas de los años <span className="font-semibold">1970 y 1980</span>. 
+                  Su pasión y dedicación al club lo transformaron en un símbolo eterno del Colo-Colo.
                 </p>
               </div>
             </div>
@@ -68,10 +68,10 @@ const Players = () => {
                   <h3 className="text-3xl font-bold text-black">Elías Figueroa</h3>
                 </div>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Considerado um dos melhores zagueiros da história do futebol sul-americano, Elías Figueroa 
-                  defendeu as cores do Colo-Colo com maestria. Sua elegância em campo, liderança e capacidade 
-                  técnica fizeram dele uma lenda não apenas do clube, mas do futebol mundial. Figueroa é 
-                  lembrado como um dos maiores defensores que já vestiu a camisa alvinegra.
+                  Considerado uno de los mejores defensores de la historia del fútbol sudamericano, Elías Figueroa 
+                  defendió los colores del Colo-Colo con maestría. Su elegancia en la cancha, liderazgo y capacidad 
+                  técnica lo hicieron una leyenda no solo del club, sino del fútbol mundial. Figueroa es 
+                  recordado como uno de los mayores defensores que vistió la camiseta alvinegra.
                 </p>
               </div>
             </div>
@@ -99,11 +99,11 @@ const Players = () => {
                   <h3 className="text-3xl font-bold text-black">Arturo Vidal</h3>
                 </div>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Arturo Vidal começou sua carreira nas categorias de base do Colo-Colo e rapidamente se 
-                  destacou como um dos maiores talentos do futebol chileno. Após brilhar no clube, Vidal 
-                  conquistou títulos importantes na Europa e se tornou uma peça fundamental da seleção 
-                  chilena que venceu <span className="font-semibold">duas Copas América consecutivas</span>. Sua trajetória é um exemplo do 
-                  poder formador do Colo-Colo.
+                  Arturo Vidal comenzó su carrera en las divisiones inferiores del Colo-Colo y rápidamente se 
+                  destacó como uno de los mayores talentos del fútbol chileno. Tras brillar en el club, Vidal 
+                  conquistó títulos importantes en Europa y se convirtió en una pieza fundamental de la selección 
+                  chilena que ganó <span className="font-semibold">dos Copas América consecutivas</span>. Su trayectoria es un ejemplo del 
+                  poder formador del Colo-Colo.
                 </p>
               </div>
             </div>
@@ -113,21 +113,21 @@ const Players = () => {
           <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg border-l-4 border-gray-400 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
             <div className="flex items-center gap-4 mb-4">
               <span className="text-4xl">⭐</span>
-              <h3 className="text-3xl font-bold text-black">Outros Grandes Nomes</h3>
+              <h3 className="text-3xl font-bold text-black">Otros Grandes Nombres</h3>
             </div>
             <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
               <p>
-                A história do Colo-Colo é repleta de grandes jogadores que marcaram época. Nomes como 
+                La historia del Colo-Colo está llena de grandes jugadores que marcaron época. Nombres como 
                 <strong className="text-black"> Marcelo Barticciotto</strong>, <strong className="text-black">Leonel Sánchez</strong>, 
-                <strong className="text-black"> Esteban Paredes</strong>, <strong className="text-black">Matías Fernández</strong> e 
-                <strong className="text-black"> Alexis Sánchez</strong> (que também passou pelas categorias de base) são apenas alguns 
-                exemplos de talentos que vestiram a camisa do clube e deixaram sua marca na história.
+                <strong className="text-black"> Esteban Paredes</strong>, <strong className="text-black">Matías Fernández</strong> y 
+                <strong className="text-black"> Alexis Sánchez</strong> (que también pasó por las divisiones inferiores) son solo algunos 
+                ejemplos de talentos que vistieron la camiseta del club y dejaron su marca en la historia.
               </p>
               <p>
-                O Colo-Colo sempre foi reconhecido por sua capacidade de formar e desenvolver jovens talentos. 
-                A escola de futebol do clube é uma das mais respeitadas do Chile e tem sido fundamental para 
-                o desenvolvimento de gerações de jogadores que não apenas brilharam no clube, mas também 
-                representaram a seleção chilena em competições internacionais.
+                El Colo-Colo siempre ha sido reconocido por su capacidad de formar y desarrollar jóvenes talentos. 
+                La escuela de fútbol del club es una de las más respetadas de Chile y ha sido fundamental para 
+                el desarrollo de generaciones de jugadores que no solo brillaron en el club, sino que también 
+                representaron a la selección chilena en competencias internacionales.
               </p>
             </div>
           </div>
@@ -138,4 +138,3 @@ const Players = () => {
 }
 
 export default Players
-
