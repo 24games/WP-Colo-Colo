@@ -1,0 +1,24 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo do escudo -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Escudo preto e branco -->
+  <path d="M 200 50 L 300 100 L 300 200 L 200 350 L 100 200 L 100 100 Z" fill="url(#shieldGradient)" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Listras horizontais brancas -->
+  <rect x="100" y="120" width="200" height="20" fill="#ffffff"/>
+  <rect x="100" y="160" width="200" height="20" fill="#ffffff"/>
+  <rect x="100" y="200" width="200" height="20" fill="#ffffff"/>
+  
+  <!-- Texto CC no centro -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#ffffff" text-anchor="middle">CC</text>
+  
+  <!-- Estrela no topo -->
+  <path d="M 200 60 L 210 85 L 235 85 L 215 100 L 220 125 L 200 110 L 180 125 L 185 100 L 165 85 L 190 85 Z" fill="#ffffff"/>
+</svg>
+

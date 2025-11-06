@@ -1,0 +1,30 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stadiumGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d2d2d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Céu -->
+  <rect width="1920" height="540" fill="#0a0a0a"/>
+  
+  <!-- Gramado -->
+  <rect y="540" width="1920" height="540" fill="#0d4d0d"/>
+  <rect y="540" width="1920" height="540" fill="url(#stadiumGrad)" opacity="0.3"/>
+  
+  <!-- Arquibancadas -->
+  <path d="M 0 540 L 0 200 L 960 100 L 1920 200 L 1920 540 Z" fill="#1a1a1a" opacity="0.8"/>
+  <path d="M 200 540 L 200 250 L 960 150 L 1720 250 L 1720 540 Z" fill="#2d2d2d" opacity="0.6"/>
+  
+  <!-- Campo -->
+  <ellipse cx="960" cy="810" rx="300" ry="150" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.3"/>
+  <line x1="960" y1="660" x2="960" y2="960" stroke="#ffffff" stroke-width="8" opacity="0.3"/>
+  <rect x="660" y="660" width="600" height="300" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.3"/>
+  
+  <!-- Texto -->
+  <text x="960" y="200" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.8">ESTÁDIO MONUMENTAL</text>
+  <text x="960" y="300" font-family="Arial, sans-serif" font-size="80" fill="#ffffff" text-anchor="middle" opacity="0.6">David Arellano</text>
+</svg>
+

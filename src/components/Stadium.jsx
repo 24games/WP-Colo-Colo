@@ -18,7 +18,7 @@ const Stadium = () => {
           {/* Imagem Principal do Estádio */}
           <div className="relative w-full h-64 md:h-96 rounded-3xl overflow-hidden shadow-2xl group">
             <img 
-              src="/images/estadio-monumental.jpg" 
+              src="/images/estadio-monumental.svg" 
               alt="Estádio Monumental David Arellano" 
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
               onError={(e) => {

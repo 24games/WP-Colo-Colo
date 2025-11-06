@@ -21,7 +21,7 @@ const Players = () => {
               <div className="flex-shrink-0">
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-lg group">
                   <img 
-                    src="/images/carlos-caszely.jpg" 
+                    src="/images/carlos-caszely.svg" 
                     alt="Carlos Caszely" 
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {
@@ -53,7 +53,7 @@ const Players = () => {
               <div className="flex-shrink-0">
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-lg group">
                   <img 
-                    src="/images/elias-figueroa.jpg" 
+                    src="/images/elias-figueroa.svg" 
                     alt="Elías Figueroa" 
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {
@@ -85,7 +85,7 @@ const Players = () => {
               <div className="flex-shrink-0">
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-lg group">
                   <img 
-                    src="/images/arturo-vidal.jpg" 
+                    src="/images/arturo-vidal.svg" 
                     alt="Arturo Vidal" 
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {

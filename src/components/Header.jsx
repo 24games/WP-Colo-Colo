@@ -14,7 +14,7 @@ const Header = () => {
             <div className="absolute inset-0 bg-white/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-300"></div>
             <div className="relative w-32 h-32 md:w-40 md:h-40">
               <img 
-                src="/images/logo-colo-colo.png" 
+                src="/images/logo-colo-colo.svg" 
                 alt="Logo Colo-Colo" 
                 className="w-full h-full object-contain drop-shadow-2xl transform group-hover:scale-110 transition-transform duration-300"
                 onError={(e) => {

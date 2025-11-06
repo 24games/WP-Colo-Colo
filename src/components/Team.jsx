@@ -18,7 +18,7 @@ const Team = () => {
           {/* Foto do Elenco Atual */}
           <div className="relative w-full h-80 md:h-96 rounded-3xl overflow-hidden shadow-2xl group">
             <img 
-              src="/images/elenco-atual.jpg" 
+              src="/images/elenco-atual.svg" 
               alt="Elenco Atual do Colo-Colo" 
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
               onError={(e) => {
