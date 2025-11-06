@@ -16,15 +16,43 @@ const Achievements = () => {
         
         <div className="space-y-8 animate-slide-up">
           {/* Destaque Principal - Libertadores */}
-          <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white p-10 rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
+          <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
+            {/* Imagem de fundo da Libertadores */}
+            <div className="absolute inset-0 opacity-30">
+              <img 
+                src="/images/libertadores-1991.jpg" 
+                alt="Copa Libertadores 1991" 
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                }}
+              />
+            </div>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-pulse"></div>
-            <div className="relative z-10">
+            <div className="relative z-10 p-10">
               <div className="flex items-center gap-4 mb-4">
                 <span className="text-5xl">🏆</span>
                 <h3 className="text-3xl md:text-4xl font-bold">Copa Libertadores da América</h3>
               </div>
               <p className="text-xl text-gray-200 mb-2">1 título (1991)</p>
               <p className="text-lg text-gray-300">Único clube chileno a conquistar este troféu histórico</p>
+            </div>
+          </div>
+          
+          {/* Galeria de Troféus */}
+          <div className="relative w-full h-48 md:h-64 rounded-2xl overflow-hidden shadow-xl group">
+            <img 
+              src="/images/trofeus.jpg" 
+              alt="Troféus do Colo-Colo" 
+              className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-yellow-50 to-amber-100 flex items-center justify-center text-gray-800 text-2xl md:text-3xl font-bold">🏆 Troféus do Colo-Colo</div>';
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+              <p className="text-xl md:text-2xl font-bold">Mais de 50 títulos conquistados</p>
             </div>
           </div>
           

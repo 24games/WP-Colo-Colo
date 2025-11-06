@@ -15,14 +15,28 @@ const Stadium = () => {
         </div>
         
         <div className="space-y-8 animate-slide-up">
+          {/* Imagem Principal do Estádio */}
+          <div className="relative w-full h-64 md:h-96 rounded-3xl overflow-hidden shadow-2xl group">
+            <img 
+              src="/images/estadio-monumental.jpg" 
+              alt="Estádio Monumental David Arellano" 
+              className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-gray-900 via-black to-gray-900 flex items-center justify-center text-white text-4xl md:text-6xl font-bold">🏟️<br/>Estádio Monumental</div>';
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+              <h3 className="text-3xl md:text-4xl font-bold mb-2">Estádio Monumental David Arellano</h3>
+              <p className="text-lg text-gray-200">A casa sagrada do Colo-Colo</p>
+            </div>
+          </div>
+          
           {/* Card Principal */}
           <div className="relative bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white p-10 rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.01] transition-transform duration-300">
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
             <div className="relative z-10">
-              <div className="flex items-center gap-4 mb-6">
-                <span className="text-5xl">🏟️</span>
-                <h3 className="text-3xl md:text-4xl font-bold">Estádio Monumental David Arellano</h3>
-              </div>
               <div className="space-y-4 text-lg text-gray-200 leading-relaxed">
                 <p>
                   O <strong className="text-white text-xl">Estádio Monumental David Arellano</strong> é muito mais do que um simples estádio de futebol. 
@@ -42,6 +56,22 @@ const Stadium = () => {
                   um ambiente único que poucos estádios no mundo conseguem igualar.
                 </p>
               </div>
+            </div>
+          </div>
+          
+          {/* Imagem do Interior */}
+          <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-xl group">
+            <img 
+              src="/images/estadio-interior.jpg" 
+              alt="Interior do Estádio Monumental" 
+              className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+              onError={(e) => {
+                e.target.style.display = 'none';
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+              <p className="text-xl font-semibold">Vista do interior do Monumental</p>
             </div>
           </div>
           

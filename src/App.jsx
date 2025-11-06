@@ -6,6 +6,7 @@ import Achievements from './components/Achievements.jsx'
 import Rivalries from './components/Rivalries.jsx'
 import Stadium from './components/Stadium.jsx'
 import Players from './components/Players.jsx'
+import Team from './components/Team.jsx'
 import Culture from './components/Culture.jsx'
 import Future from './components/Future.jsx'
 import Conclusion from './components/Conclusion.jsx'
@@ -21,6 +22,7 @@ function App() {
       <Rivalries />
       <Stadium />
       <Players />
+      <Team />
       <Culture />
       <Future />
       <Conclusion />
