@@ -20,7 +20,7 @@ const Team = () => {
             <img 
               src="https://www.opovo.com.br/_midias/jpg/2022/04/06/750x500/1_elenco_colo_colo-18483451.jpg" 
               alt="Elenco Atual do Colo-Colo" 
-              className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+              className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-500"
               onError={(e) => {
                 e.target.src = '/images/elenco-atual.svg';
               }}

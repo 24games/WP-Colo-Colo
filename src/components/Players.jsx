@@ -85,7 +85,7 @@ const Players = () => {
                   <img 
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chile_VS._Australia_%2813%29_2017-6-25_Arturo_Vidal.jpg/250px-Chile_VS._Australia_%2813%29_2017-6-25_Arturo_Vidal.jpg" 
                     alt="Arturo Vidal" 
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {
                       e.target.src = '/images/arturo-vidal.svg';
                     }}
