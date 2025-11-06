@@ -39,7 +39,7 @@ const Team = () => {
               <img 
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLKfJd_mbjHvpQBncC1W8fG_kCX68dXkLqlQ&s" 
                 alt="Time Histórico do Colo-Colo" 
-                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover object-center transform group-hover:scale-110 transition-transform duration-500"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-gray-800 to-black flex items-center justify-center text-white text-2xl font-bold text-center px-4">📸<br/>Time Histórico</div>';
