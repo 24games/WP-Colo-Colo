@@ -5,13 +5,13 @@ const Team = () => {
     <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             <span className="relative inline-block">
-              O Elenco
+              O Elenco do Colo-Colo
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-black via-gray-600 to-black rounded-full"></span>
             </span>
           </h2>
-          <p className="text-gray-600 text-lg mt-6">O time que representa o Colo-Colo</p>
+          <p className="text-gray-600 text-lg mt-6">Conheça os jogadores que fazem a história do clube</p>
         </div>
         
         <div className="space-y-8 animate-slide-up">
