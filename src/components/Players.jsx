@@ -21,12 +21,11 @@ const Players = () => {
               <div className="flex-shrink-0">
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-lg group">
                   <img 
-                    src="/images/carlos-caszely.svg" 
+                    src="https://imagenes.elpais.com/resizer/v2/PK4UTWKOOHZXRFCLCZBUHQZPBM.jpg?auth=2385db231c8c4e4959ad7c083b61cc9eb381a3a1cae982542a66df07826374ca&width=1200" 
                     alt="Carlos Caszely" 
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-black to-gray-800 flex items-center justify-center text-white text-4xl font-bold">CC</div>';
+                      e.target.src = '/images/carlos-caszely.svg';
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -53,12 +52,11 @@ const Players = () => {
               <div className="flex-shrink-0">
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-lg group">
                   <img 
-                    src="/images/elias-figueroa.svg" 
+                    src="https://lendasdofutebol.com/wp-content/uploads/2021/12/elias-figueroa-350x260-1-optimized.jpg" 
                     alt="Elías Figueroa" 
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-gray-600 to-gray-800 flex items-center justify-center text-white text-4xl font-bold">EF</div>';
+                      e.target.src = '/images/elias-figueroa.svg';
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -85,12 +83,11 @@ const Players = () => {
               <div className="flex-shrink-0">
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-lg group">
                   <img 
-                    src="/images/arturo-vidal.svg" 
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chile_VS._Australia_%2813%29_2017-6-25_Arturo_Vidal.jpg/250px-Chile_VS._Australia_%2813%29_2017-6-25_Arturo_Vidal.jpg" 
                     alt="Arturo Vidal" 
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-black to-gray-800 flex items-center justify-center text-white text-4xl font-bold">AV</div>';
+                      e.target.src = '/images/arturo-vidal.svg';
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>

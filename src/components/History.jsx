@@ -39,10 +39,23 @@ const History = () => {
           
           {/* Décadas de Glória */}
           <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg border-l-4 border-gray-600 hover:shadow-xl transition-shadow duration-300">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
               <h3 className="text-3xl font-bold text-black">Décadas de Glória e Transformação</h3>
             </div>
+            
+            {/* Imagem do Estádio Monumental */}
+            <div className="mb-6 rounded-xl overflow-hidden shadow-lg">
+              <img 
+                src="https://cdn.conmebol.com/wp-content/uploads/2016/08/monumentalchile1.jpg" 
+                alt="Estádio Monumental David Arellano" 
+                className="w-full h-64 md:h-80 object-cover"
+                onError={(e) => {
+                  e.target.src = 'https://ebco.cl/assets/projects/proyectos/estadio-monumental-y-casa-alba-1.jpg';
+                }}
+              />
+            </div>
+            
             <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
               <p>
                 Ao longo das décadas seguintes, o Colo-Colo passou por várias fases de transformação. Nas décadas de <span className="font-semibold">1960 
@@ -54,32 +67,6 @@ const History = () => {
                 A década de <span className="font-semibold text-black">1990</span> foi o auge do Colo-Colo. Com uma equipe talentosa e bem estruturada, o clube alcançou 
                 conquistas históricas que até hoje são lembradas com orgulho por toda a nação chilena.
               </p>
-            </div>
-          </div>
-          
-          {/* Copa Libertadores - Destaque */}
-          <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white p-10 rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.01] transition-transform duration-300">
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-            <div className="relative z-10">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center text-black font-bold text-2xl">🏆</div>
-                <h3 className="text-3xl md:text-4xl font-bold">A Copa Libertadores de 1991</h3>
-              </div>
-              <p className="text-2xl font-semibold mb-4 text-yellow-300">O Título Mais Importante</p>
-              <div className="space-y-4 text-lg text-gray-200 leading-relaxed">
-                <p>
-                  O ano de <span className="font-bold text-white">1991</span> ficou marcado na história do futebol chileno como o momento em que o Colo-Colo conquistou 
-                  a <strong className="text-yellow-300 text-xl">Copa Libertadores da América</strong>, o título mais prestigioso do continente. 
-                  Sob o comando do técnico croata <span className="font-semibold">Mirko Jozić</span>, o Colo-Colo derrotou o Olimpia do Paraguai na final, 
-                  tornando-se o primeiro e único clube chileno a conquistar esse troféu até hoje.
-                </p>
-                <p>
-                  Essa conquista não foi apenas um título esportivo, mas sim um momento de união nacional. Milhares de 
-                  chilenos celebraram nas ruas, e o feito do Colo-Colo foi reconhecido como uma vitória de todo o país. 
-                  O clube ainda participou do <span className="font-semibold">Mundial de Clubes da FIFA</span> no mesmo ano, enfrentando equipes europeias e 
-                  consolidando seu nome no cenário internacional.
-                </p>
-              </div>
             </div>
           </div>
         </div>

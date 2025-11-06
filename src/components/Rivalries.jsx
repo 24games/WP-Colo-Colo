@@ -16,9 +16,20 @@ const Rivalries = () => {
         
         <div className="space-y-8 animate-slide-up">
           {/* Superclásico - Destaque */}
-          <div className="relative bg-gradient-to-br from-red-600 via-red-700 to-red-800 text-white p-10 rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.01] transition-transform duration-300">
+          <div className="relative bg-gradient-to-br from-red-600 via-red-700 to-red-800 text-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.01] transition-transform duration-300">
+            {/* Imagem de fundo */}
+            <div className="absolute inset-0 opacity-20">
+              <img 
+                src="https://scontent.fssa9-1.fna.fbcdn.net/v/t39.30808-6/433117561_1325380551624953_3760851706289677166_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=gqXRGKgBoXsQ7kNvwHPamo6&_nc_oc=AdlnuZxJ_QtiyJXnacixW95-FoaTGy8PiSlfXbXvsfl_gAXpmgc58QM6mUjVeYVxSJY&_nc_zt=23&_nc_ht=scontent.fssa9-1.fna&_nc_gid=PW2s-i58_VS1ZeRm54ZBHA&oh=00_AfgjfKFf2xCdiYZujUC6E2-PAEyOqmDVcT7O4d4qZP5QCQ&oe=69127467" 
+                alt="Superclásico Chileno" 
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                }}
+              />
+            </div>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-            <div className="relative z-10">
+            <div className="relative z-10 p-10">
               <div className="flex items-center gap-4 mb-6">
                 <span className="text-5xl">⚔️</span>
                 <h3 className="text-3xl md:text-4xl font-bold">O Superclásico Chileno</h3>

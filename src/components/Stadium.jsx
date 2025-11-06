@@ -18,12 +18,11 @@ const Stadium = () => {
           {/* Imagem Principal do Estádio */}
           <div className="relative w-full h-64 md:h-96 rounded-3xl overflow-hidden shadow-2xl group">
             <img 
-              src="/images/estadio-monumental.svg" 
+              src="https://cdn.conmebol.com/wp-content/uploads/2016/08/monumentalchile1.jpg" 
               alt="Estádio Monumental David Arellano" 
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
               onError={(e) => {
-                e.target.style.display = 'none';
-                e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-gray-900 via-black to-gray-900 flex items-center justify-center text-white text-4xl md:text-6xl font-bold">🏟️<br/>Estádio Monumental</div>';
+                e.target.src = 'https://ebco.cl/assets/projects/proyectos/estadio-monumental-y-casa-alba-1.jpg';
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
@@ -62,7 +61,7 @@ const Stadium = () => {
           {/* Imagem do Interior */}
           <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-xl group">
             <img 
-              src="/images/estadio-interior.jpg" 
+              src="https://ebco.cl/assets/projects/proyectos/estadio-monumental-y-casa-alba-1.jpg" 
               alt="Interior do Estádio Monumental" 
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
               onError={(e) => {

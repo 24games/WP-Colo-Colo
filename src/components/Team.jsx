@@ -18,12 +18,11 @@ const Team = () => {
           {/* Foto do Elenco Atual */}
           <div className="relative w-full h-80 md:h-96 rounded-3xl overflow-hidden shadow-2xl group">
             <img 
-              src="/images/elenco-atual.svg" 
+              src="https://www.opovo.com.br/_midias/jpg/2022/04/06/750x500/1_elenco_colo_colo-18483451.jpg" 
               alt="Elenco Atual do Colo-Colo" 
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
               onError={(e) => {
-                e.target.style.display = 'none';
-                e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center text-white text-3xl md:text-4xl font-bold text-center px-4">⚽<br/>Elenco Atual<br/>Colo-Colo</div>';
+                e.target.src = '/images/elenco-atual.svg';
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
@@ -38,7 +37,7 @@ const Team = () => {
             {/* Time Histórico */}
             <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-xl group">
               <img 
-                src="/images/time-historico.jpg" 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLKfJd_mbjHvpQBncC1W8fG_kCX68dXkLqlQ&s" 
                 alt="Time Histórico do Colo-Colo" 
                 className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 onError={(e) => {
