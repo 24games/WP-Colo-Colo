@@ -72,8 +72,10 @@ const Achievements = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-black">Campeonato Chileno</h3>
               </div>
-              <p className="text-4xl font-extrabold text-gray-900 mb-3">33</p>
-              <p className="text-lg text-gray-600">títulos - Maior campeão nacional</p>
+              <div className="flex items-baseline gap-2">
+                <p className="text-4xl font-extrabold text-gray-900">33</p>
+                <p className="text-lg text-gray-600">títulos - Maior campeão nacional</p>
+              </div>
             </div>
             
             <div className="group bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
@@ -93,8 +95,10 @@ const Achievements = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-black">Copa Chile</h3>
               </div>
-              <p className="text-4xl font-extrabold text-gray-900 mb-3">13</p>
-              <p className="text-lg text-gray-600">títulos conquistados</p>
+              <div className="flex items-baseline gap-2">
+                <p className="text-4xl font-extrabold text-gray-900">13</p>
+                <p className="text-lg text-gray-600">títulos conquistados</p>
+              </div>
             </div>
             
             <div className="group bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
@@ -114,8 +118,10 @@ const Achievements = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-black">Recopa Sul-Americana</h3>
               </div>
-              <p className="text-4xl font-extrabold text-gray-900 mb-3">1</p>
-              <p className="text-lg text-gray-600">título (1992)</p>
+              <div className="flex items-baseline gap-2">
+                <p className="text-4xl font-extrabold text-gray-900">1</p>
+                <p className="text-lg text-gray-600">título (1992)</p>
+              </div>
             </div>
             
             <div className="group bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
@@ -135,8 +141,10 @@ const Achievements = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-black">Supercopa do Chile</h3>
               </div>
-              <p className="text-4xl font-extrabold text-gray-900 mb-3">2</p>
-              <p className="text-lg text-gray-600">títulos (2017 e 2018)</p>
+              <div className="flex items-baseline gap-2">
+                <p className="text-4xl font-extrabold text-gray-900">2</p>
+                <p className="text-lg text-gray-600">títulos (2017 e 2018)</p>
+              </div>
             </div>
           </div>
           
